@@ -1,0 +1,96 @@
+
+.medio{
+    display: inline-block;
+    border: 2px solid rgb(92, 81, 238);
+    color: khaki;
+    box-shadow: 2px 2px 2px 1px rgb(48, 92, 236);
+    transform: translate(40vw,1px);
+   font-size: 40px;
+   margin: 2vh;
+}
+.continuacion{
+    margin: 6vh;
+    display: inline-block;
+    transform: translate(-50vh,2vh);
+    color: khaki;
+    font-family: fantasy;
+    
+    font-size: 30px;
+    
+}
+.f1{
+    display: inline-block;
+    transform: translate(25vh,-6vh);
+    font-style: italic;
+    font-size: 40px;
+    color: khaki;
+    margin: 10vh;
+}
+
+.huevos {
+display: grid;
+justify-items: stretch;
+grid-template-columns: repeat(3, 1fr);
+border: solid 0.5vh white;
+
+
+}
+.almendras {
+display: grid;
+justify-items: stretch;
+ grid-template-columns: repeat(3, 1fr);
+ border: solid 0.5vh white;
+}
+
+.nueces {
+display: grid;
+justify-items: stretch;
+ grid-template-columns: repeat(3, 1fr);
+ border: solid 0.5vh white;
+}
+
+
+
+.grillos  {
+display: grid;
+justify-items: stretch;
+ grid-template-columns: repeat(3, 1fr);
+ border: solid 0.5vh white;
+}
+.harinaDeAlmendras2  {
+display: grid;
+justify-items: stretch;
+grid-template-columns: repeat(3, 1fr);
+border: solid 0.5vh white;
+
+}
+.cerdo  {
+display: grid;
+justify-items: stretch;
+ grid-template-columns: repeat(3, 1fr);
+ border: solid 0.5vh white;
+
+}
+.soja  {
+display: grid;
+justify-items: stretch;
+ grid-template-columns: repeat(3, 1fr);
+ border: solid 0.5vh white;
+
+
+}
+.tofu  {
+display: grid;
+justify-items: stretch;
+grid-template-columns: repeat(3, 1fr);
+border: solid 0.5vh white;
+
+}
+
+.ic{
+display: inline-block;
+border: solid black 1vh;
+background-color: tomato;
+font-size: 30px;
+transform: translate(40vw,20px);
+}

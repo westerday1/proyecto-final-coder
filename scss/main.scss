@@ -1,0 +1,428 @@
+body{
+    background-image: url(../multtimedia/Fondos-Wallpaper-Gratis-Abstractos-172.jpg);
+ }
+ $color1: khaki;
+ $color2: white;
+ $font-family1: fantasy;
+ .titulo h1 {
+     font-size: 40px;
+     display: inline-block;
+    background-color: $color2;
+     padding: 35px;
+     box-shadow: 2px 2px 2px 1px rgb(2, 2, 2);
+     margin-top: 3vh;
+     margin-left: 2vw;
+    text-decoration: none;
+    
+        animation-duration: 2s;
+        animation-name: aparecer;
+     
+     
+     
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+     
+   
+
+    
+}
+   
+ .titulo a{
+    text-decoration: none;
+    font-family: $font-family1;
+ }
+
+ .lincks{
+     display: flex;
+     flex: 1;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+    color: $color1;
+     min-height: 5vh;
+     margin: 1;
+     border: solid black 10px;
+     font-size: 18px;
+     font-style: italic;
+     background-color: $color1;
+ }
+     
+ 
+ 
+     //inicio//
+
+.card{
+    background-color: khaki;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin: 5vh;
+}
+.card__thumbnail{
+    width: 1000px;
+    height: 200px;
+    background-color: lavender;
+    margin-right: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.card__img{
+    width: 100%;
+}
+.boton{
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    transition: .3 ease all;
+
+}
+.boton--absolute{
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+}
+//termina el inicio//
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+ footer{
+     width: 100%;
+     background-color: black;
+     color: $color2;
+     
+ 
+ }
+ .todoelpie{
+     width: 100%;
+     max-width: 1200px;
+     margin: auto;
+     padding: 40px;
+     
+ }
+ .pie{
+     display: flex;
+     justify-content: space-between;
+ 
+ }
+ .columna1{
+     max-width: 400px;
+ 
+ }
+ .columna1 h3{
+     font-size: 22px;
+ }
+ .columna1 p{
+     font-size: 14px;
+     color: teal;
+     margin-top: 20px;
+ }
+ .columna2{
+     max-width: 400px;
+ 
+ }
+ .columna2 h1{
+     font-size: 22px;
+     
+ 
+ }
+ .row{
+     margin-top: 20px;
+     display: flex;
+ }
+ .row img{
+     width: 36px;
+     height: 36px;
+ }
+ .row label{
+     margin-top: 10px;
+     margin-left: 20px;
+     color: $color2;
+ }
+ .columna3{
+     max-width: 400px;
+     
+ 
+ }
+ .columna3 h1{
+     font-size: 22px;
+     
+ 
+ }
+ .row2{
+     margin-top: 20px;
+     display: flex;
+ }
+ .row2 img{
+     width: 36px;
+     height: 36px;
+ }
+ .row2 label{
+     margin-left: 20px;
+     max-width: 140px;
+     margin-top: 10px;
+ 
+ }
+ .pie2{
+     width: 100%;
+     background-color: teal;
+    
+     
+ }
+ .footer{
+     display: flex;
+     justify-content: space-between;
+     max-width: 1200px;
+     margin: auto;
+     padding: 20px;
+ }
+ .copyright{
+     color: whitesmoke;
+ }
+ .copyright a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ .informacion a{
+     text-decoration: none;
+     color: black;
+ }
+ 
+ @media screen and (max-width:1100px){
+     .todoelpie{
+         flex-wrap: wrap;
+     }
+     .columna1{
+         max-width: 100%;
+     }
+     .columna2,
+     .columna3{
+         margin-top: 60px;
+     }
+ }
+ 
+ .tabla2 {
+     background-color: thistle;
+     text-align: center;
+     color: $color1;
+     font-style: italic;
+     
+ }
+ .tabla2{
+     display: inline-block;
+     border: solid 2vh black;
+     transform: translate(38vw,-5vh);
+ }
+    
+      div>h2{
+         display: inline-block;
+         border: 2px solid rgb(92, 81, 238);
+         color: $color1;
+         transform: translate(32vw,2vh);
+         font-size: 40px;
+         font-family: fantasy;
+         
+         
+     }
+     .noc3{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         background-color: tomato;
+         font-style: italic;
+         font-size: 30px;
+         display: inline-block;
+         border: solid 1vh black;
+         transform: translate(42vw,0vh);
+     }
+     .noc4{
+         display: inline-block;
+         transform: translate(5vw,25vh);
+         margin: 13vw;
+     }
+     
+     .tabla{
+         display: grid;
+         grid-template-columns: 1fr,1fr; 
+         grid-template-rows: 1fr,1fr;
+         color: $color1;
+     
+     }
+     .noc5>h2{
+         margin: 5vh;
+         display: inline-block;
+         border: 2px solid rgb(92, 81, 238);
+         transform: translate(13vh,1px);
+         color: $color1;
+         
+ 
+     }
+     .noc6{
+         display: inline-block;
+         transform: translate(32vw,7vh);
+         border: 5px solid rgb(92, 81, 238);
+         box-sizing: border-box;
+         margin: 10vh;
+     }
+     .bienvenida{
+         
+         margin: 4vh;
+         color: $color1;
+         font-size: 21px;
+         font-family: fantasy;
+         transform: translate(-22vw,-4vh);
+         
+         
+     }
+     .noc7{
+         display: inline-block;
+         margin: 0.5vh;
+         border: 2px solid rgb(92, 81, 238);
+         color: $color1;
+         box-shadow: 4px 4px 4px 3px rgb(2, 2, 2);
+         transform: translate(2vw,-8vh);
+         font-size: 22px;
+         font-family: fantasy;
+         margin: 20vh;
+     }
+     nav>iframe{
+         box-shadow: 4px 4px 4px 3px rgb(2, 2, 2);
+         display: inline-block;
+         border: solid $color1 1vh;
+         transform: translate(31vw,6vh);
+         border: 2px solid rgb(92, 81, 238);
+     }
+     .receta{
+         display: inline-block;
+         background-color: $color1;
+         color: black;
+         transform: translate(15vh,15vh);
+         border: solid black 1px;
+         font-size: 20px;
+         font-family: $font-family1;
+     }
+     .recetario{
+         transform: translate(35vw,10vh);
+         margin: 10vh;
+     
+     }
+     .medio{
+         display: inline-block;
+         
+         color: $color1;
+         
+         transform: translate(12vw,1px);
+        font-size: 40px;
+        margin: 2vh;
+     }
+     .continuacion{
+         margin: 6vh;
+         display: inline-block;
+         transform: translate(-50vh,2vh);
+         color: $color1;
+         font-family: $font-family1;
+         
+         font-size: 30px;
+         
+     }
+     .f1{
+         display: inline-block;
+         transform: translate(25vh,-6vh);
+         font-style: italic;
+         font-size: 40px;
+         color: $color1;
+         margin: 10vh;
+     }
+ 
+ .huevos {
+    display: grid;
+    justify-items: stretch;
+     grid-template-columns: repeat(3, 1fr);
+    border: solid 0.5vh $color2;
+    
+     
+ }
+ .almendras {
+     display: grid;
+     justify-items: stretch;
+      grid-template-columns: repeat(3, 1fr);
+      border: solid 0.5vh $color2;
+ }
+     
+ .nueces {
+     display: grid;
+     justify-items: stretch;
+      grid-template-columns: repeat(3, 1fr);
+      border: solid 0.5vh $color2;
+ }
+ 
+     
+ 
+ .grillos  {
+     display: grid;
+     justify-items: stretch;
+      grid-template-columns: repeat(3, 1fr);
+      border: solid 0.5vh $color2;
+ }
+ .harinaDeAlmendras2  {
+     display: grid;
+     justify-items: stretch;
+     grid-template-columns: repeat(3, 1fr);
+     border: solid 0.5vh $color2;
+    
+ }
+ .cerdo  {
+     display: grid;
+     justify-items: stretch;
+      grid-template-columns: repeat(3, 1fr);
+      border: solid 0.5vh $color2;
+     
+ }
+ .soja  {
+     display: grid;
+     justify-items: stretch;
+      grid-template-columns: repeat(3, 1fr);
+      border: solid 0.5vh $color2;
+    
+     
+ }
+ .tofu  {
+     display: grid;
+     justify-items: stretch;
+     grid-template-columns: repeat(3, 1fr);
+     border: solid 0.5vh $color2;
+    
+ }
+ 
+ .ic{
+    display: inline-block;
+    border: solid black 1vh;
+    background-color: tomato;
+    font-size: 30px;
+    transform: translate(40vw,20px);
+ }
+
+   
+ 
+ 

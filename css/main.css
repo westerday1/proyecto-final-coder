@@ -1,0 +1,352 @@
+body {
+  background-image: url(../multtimedia/Fondos-Wallpaper-Gratis-Abstractos-172.jpg); }
+
+.titulo h1 {
+  font-size: 40px;
+  display: inline-block;
+  background-color: white;
+  padding: 35px;
+  box-shadow: 2px 2px 2px 1px #020202;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  text-decoration: none;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.titulo a {
+  text-decoration: none;
+  font-family: fantasy; }
+
+.lincks {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: khaki;
+  min-height: 5vh;
+  margin: 1;
+  border: solid black 10px;
+  font-size: 18px;
+  font-style: italic;
+  background-color: khaki; }
+
+.card {
+  background-color: khaki;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin: 5vh; }
+
+.card__thumbnail {
+  width: 1000px;
+  height: 200px;
+  background-color: lavender;
+  margin-right: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block; }
+
+.card__img {
+  width: 100%; }
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  transition: .3 ease all; }
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white; }
+
+.todoelpie {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px; }
+
+.pie {
+  display: flex;
+  justify-content: space-between; }
+
+.columna1 {
+  max-width: 400px; }
+
+.columna1 h3 {
+  font-size: 22px; }
+
+.columna1 p {
+  font-size: 14px;
+  color: teal;
+  margin-top: 20px; }
+
+.columna2 {
+  max-width: 400px; }
+
+.columna2 h1 {
+  font-size: 22px; }
+
+.row {
+  margin-top: 20px;
+  display: flex; }
+
+.row img {
+  width: 36px;
+  height: 36px; }
+
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white; }
+
+.columna3 {
+  max-width: 400px; }
+
+.columna3 h1 {
+  font-size: 22px; }
+
+.row2 {
+  margin-top: 20px;
+  display: flex; }
+
+.row2 img {
+  width: 36px;
+  height: 36px; }
+
+.row2 label {
+  margin-left: 20px;
+  max-width: 140px;
+  margin-top: 10px; }
+
+.pie2 {
+  width: 100%;
+  background-color: teal; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px; }
+
+.copyright {
+  color: whitesmoke; }
+
+.copyright a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold; }
+
+.informacion a {
+  text-decoration: none;
+  color: black; }
+
+@media screen and (max-width: 1100px) {
+  .todoelpie {
+    flex-wrap: wrap; }
+  .columna1 {
+    max-width: 100%; }
+  .columna2,
+  .columna3 {
+    margin-top: 60px; } }
+
+.tabla2 {
+  background-color: thistle;
+  text-align: center;
+  color: khaki;
+  font-style: italic; }
+
+.tabla2 {
+  display: inline-block;
+  border: solid 2vh black;
+  transform: translate(38vw, -5vh); }
+
+div > h2 {
+  display: inline-block;
+  border: 2px solid #5c51ee;
+  color: khaki;
+  transform: translate(32vw, 2vh);
+  font-size: 40px;
+  font-family: fantasy; }
+
+.noc3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: tomato;
+  font-style: italic;
+  font-size: 30px;
+  display: inline-block;
+  border: solid 1vh black;
+  transform: translate(42vw, 0vh); }
+
+.noc4 {
+  display: inline-block;
+  transform: translate(5vw, 25vh);
+  margin: 13vw; }
+
+.tabla {
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-template-rows: 1fr,1fr;
+  color: khaki; }
+
+.noc5 > h2 {
+  margin: 5vh;
+  display: inline-block;
+  border: 2px solid #5c51ee;
+  transform: translate(13vh, 1px);
+  color: khaki; }
+
+.noc6 {
+  display: inline-block;
+  transform: translate(32vw, 7vh);
+  border: 5px solid #5c51ee;
+  box-sizing: border-box;
+  margin: 10vh; }
+
+.bienvenida {
+  margin: 4vh;
+  color: khaki;
+  font-size: 21px;
+  font-family: fantasy;
+  transform: translate(-22vw, -4vh); }
+
+.noc7 {
+  display: inline-block;
+  margin: 0.5vh;
+  border: 2px solid #5c51ee;
+  color: khaki;
+  box-shadow: 4px 4px 4px 3px #020202;
+  transform: translate(2vw, -8vh);
+  font-size: 22px;
+  font-family: fantasy;
+  margin: 20vh; }
+
+nav > iframe {
+  box-shadow: 4px 4px 4px 3px #020202;
+  display: inline-block;
+  border: solid khaki 1vh;
+  transform: translate(31vw, 6vh);
+  border: 2px solid #5c51ee; }
+
+.receta {
+  display: inline-block;
+  background-color: khaki;
+  color: black;
+  transform: translate(15vh, 15vh);
+  border: solid black 1px;
+  font-size: 20px;
+  font-family: fantasy; }
+
+.recetario {
+  transform: translate(35vw, 10vh);
+  margin: 10vh; }
+
+.medio {
+  display: inline-block;
+  color: khaki;
+  transform: translate(12vw, 1px);
+  font-size: 40px;
+  margin: 2vh; }
+
+.continuacion {
+  margin: 6vh;
+  display: inline-block;
+  transform: translate(-50vh, 2vh);
+  color: khaki;
+  font-family: fantasy;
+  font-size: 30px; }
+
+.f1 {
+  display: inline-block;
+  transform: translate(25vh, -6vh);
+  font-style: italic;
+  font-size: 40px;
+  color: khaki;
+  margin: 10vh; }
+
+.huevos {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.almendras {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.nueces {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.grillos {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.harinaDeAlmendras2 {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.cerdo {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.soja {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.tofu {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.5vh white; }
+
+.ic {
+  display: inline-block;
+  border: solid black 1vh;
+  background-color: tomato;
+  font-size: 30px;
+  transform: translate(40vw, 20px); }
